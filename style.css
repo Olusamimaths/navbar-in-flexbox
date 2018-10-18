@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  margin: 0;
+  padding: 0 10px;
+  background: black;
+  color: black;
+  list-style-type: none;
+  display: flex;
+}
+
+#header li {
+  background: yellow;
+  padding: 5px;
+  margin: 15px;
+  flex: 0 0 auto;
+}
+
+#header li:nth-child(1){
+  margin-right: auto;
+  background: black;
+  color: yellow;
+  font-weight: bolder;
+}
